@@ -1,0 +1,85 @@
+.order-form-wrapper {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.order-form__from-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}
+
+.order-form__from-input {
+    width: 47em;
+}
+
+.order-form__suitable-crew-wrapper {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.suitable-crew__panel {
+    width: 91%;
+    height: 150px;
+}
+
+.suitable-crew__title {
+    margin-right: 10px;
+}
+
+.suitable-crew__content-wrapper {
+    display: flex;
+    flex-direction: row;
+    min-height: 140px;
+}
+
+.suitable-crew__icon {
+    margin: 5% 15% 5% 5%;
+}
+
+.suitable-crew__car-plate {
+    margin-top: 10px;
+}
+
+.map-crew-container {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.map-crew__crew-list {
+    margin-left: 15px;
+    width: 250px;
+}
+
+.crew-list__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.crew-list__info-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.crew-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.crew-list__icon {
+    margin: 10px 15px 0 10px;
+}
+
+.order-form__submit-button {
+    margin-top: 20px;
+    text-align: center;
+}
